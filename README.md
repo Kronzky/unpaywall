@@ -6,7 +6,7 @@ A Claude Code skill that reads paywalled articles by routing them through bypass
 
 When you share a paywalled article URL, Claude will automatically attempt to retrieve the full text using a series of bypass methods — no manual steps required.
 
-**Supported sites include:** Bloomberg, NY Times, Washington Post, Wall Street Journal, Financial Times, The Guardian, Harvard Business Review, LA Times, The Economist, Chicago Tribune, Boston Globe, The Atlantic, The Telegraph, The Sydney Morning Herald, and most other paywalled news sites.
+**Supported sites include:** The Atlantic, Bloomberg, Boston Globe, Chicago Tribune, The Economist, Financial Times, The Guardian, Harvard Business Review, LA Times, NY Times, The Sydney Morning Herald, The Telegraph, Wall Street Journal, Washington Post, and most other paywalled news sites.
 
 ## How It Works
 
