@@ -106,4 +106,4 @@ Verify `SKILL.md` is in `~/.claude/skills/unpaywall/` and restart Claude Code.
 
 ## Legal Note
 
-For educational and research purposes, and for users with legitimate subscriptions experiencing technical access issues. Please support quality journalism by subscribing to publications you read regularly.
+For educational and research purposes, and for users with legitimate subscriptions experiencing technical access issues.
