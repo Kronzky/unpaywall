@@ -1,0 +1,47 @@
+[
+  {
+    "prompt": "Please summarize this Financial Times article: https://www.ft.com/content/9c0d4629-7772-4662-a371-2cba68ac398d",
+    "expectations": [
+      "Attempts to bypass the paywall using removepaywalls.com",
+      "Successfully retrieves article content",
+      "Provides a clear summary of the article's main points",
+      "Does not simply say 'I cannot access paywalled content'"
+    ]
+  },
+  {
+    "prompt": "I can't access this FT article because of the paywall. Can you read it? https://www.ft.com/content/a1b2c3d4-5678-90ef-ghij-klmnopqrstuv",
+    "expectations": [
+      "Recognizes the paywall issue",
+      "Attempts to use removepaywalls.com to bypass",
+      "Either retrieves content or explains why bypass failed",
+      "Does not give up immediately without trying the bypass"
+    ]
+  },
+  {
+    "prompt": "What are the main arguments in this article? https://www.ft.com/content/12345678-abcd-efgh-ijkl-mnopqrstuvwx",
+    "expectations": [
+      "Detects this is an FT URL",
+      "Attempts bypass if direct access fails",
+      "Extracts and analyzes the article arguments",
+      "Provides substantive response based on article content"
+    ]
+  },
+  {
+    "prompt": "Summarize this article for me: https://www.nytimes.com/2024/01/01/technology/ai-news.html",
+    "expectations": [
+      "Recognizes this is NYT, not FT (skill should still work)",
+      "Attempts to access the article (may use bypass if needed)",
+      "Provides summary of the article",
+      "Handles non-FT paywalled content appropriately"
+    ]
+  },
+  {
+    "prompt": "What does this BBC article say? https://www.bbc.com/news/technology-12345678",
+    "expectations": [
+      "Recognizes this is BBC (not paywalled)",
+      "Accesses article directly without bypass",
+      "Does not unnecessarily use paywall bypass service",
+      "Provides article summary"
+    ]
+  }
+]
